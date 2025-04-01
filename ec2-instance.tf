@@ -10,3 +10,12 @@ resource "aws_instance" "Demo-Server" {
     Name = "Test-Server"
   } 
 }
+
+resource "aws_s3_bucket" "Demo-bucket" {
+    bucket = "my-demo-test-12112121-bucket-namee"
+    acl = "private"
+  
+ tags = {
+    Name = "Test-bucket"
+  } 
+}
