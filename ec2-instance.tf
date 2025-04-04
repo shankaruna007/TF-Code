@@ -11,7 +11,7 @@ resource "aws_instance" "Demo-Server" {
   } 
 }
 
-resource "aws_se_bucket" "Demo-Bucket" {
+resource "aws_s3_bucket" "Demo-Bucket" {
     bucket = "test-buckt-0efc43a4067fe9a3e"
   
  tags = {
