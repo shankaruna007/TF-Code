@@ -10,3 +10,11 @@ resource "aws_instance" "Demo-Server" {
     Name = "Test-server"
   } 
 }
+
+resource "aws_se_bucket" "Demo-Bucket" {
+    bucket = "test-buckt-0efc43a4067fe9a3e"
+  
+ tags = {
+    Name = "Test-bucket"
+  } 
+}
