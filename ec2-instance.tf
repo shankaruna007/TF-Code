@@ -7,6 +7,6 @@ resource "aws_instance" "Sakthi-Server" {
     instance_type = "t2.micro" 
   
  tags = {
-    Name = "Sakthi/Sri Rao -server"
+    Name = "Sakthi-Sri-server"
   } 
 }
